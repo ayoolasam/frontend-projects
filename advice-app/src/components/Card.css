@@ -1,0 +1,45 @@
+.card{
+  width:400px;
+  height:250px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  margin:10% auto;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 30px;
+  align-items: center;
+}
+.contain{
+  width:60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:450px;
+  cursor: pointer;
+  
+}
+.contain img{
+  width:30px;
+}
+p{
+  font-family:"poppins",sans-serif ;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(193, 38%, 86%);
+}
+span{
+  font-family:"poppins",sans-serif ;
+  color:hsl(150, 100%, 66%)
+}
+.adv{
+  display: flex;
+  justify-content: center;
+}
+.contain:active{
+  background-color: hsl(100, 100%, 68%);
+}
